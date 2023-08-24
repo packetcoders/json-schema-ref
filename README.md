@@ -1,2 +1,2 @@
-# json-schema-ref
+# JSON Schema Ref
 Dummy data for JSON Schema ref demo
