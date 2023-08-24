@@ -1,0 +1,11 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://raw.githubusercontent.com/rickdonato/jsonschema/main/vlan.json",
+  "title": "VLAN Configuration",
+  "type": "object",
+  "properties": {
+    "vlan_id": { "type": "integer" },
+    "name": { "type": "string" }
+  },
+  "required": ["vlan_id", "name"]
+}
