@@ -1,0 +1,11 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://raw.githubusercontent.com/rickdonato/jsonschema/main/dns.json",
+  "title": "DNS Settings",
+  "type": "object",
+  "properties": {
+    "primary_dns": { "type": "string", "format": "ipv4" },
+    "secondary_dns": { "type": "string", "format": "ipv4" }
+  },
+  "required": ["primary_dns"]
+}
