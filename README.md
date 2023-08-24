@@ -1,2 +1,2 @@
 # JSON Schema Ref
-Dummy data for JSON Schema ref demo
+Dummy data for the Packet Coders JSON Schema tech session.
