@@ -1,10 +1,10 @@
 {
   "$schema": "https://json-schema.org/draft/2020-12/schema",
-  "title": "DNS Settings",
+  "title": "VLAN Configuration",
   "type": "object",
   "properties": {
-    "primary_dns": { "type": "string", "format": "ipv4" },
-    "secondary_dns": { "type": "string", "format": "ipv4" }
+    "vlan_id": { "type": "integer" },
+    "name": { "type": "string" }
   },
-  "required": ["primary_dns"]
+  "required": ["vlan_id", "name"]
 }
