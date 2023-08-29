@@ -1,6 +1,6 @@
 {
   "$schema": "https://json-schema.org/draft/2020-12/schema",
-  "$id": "https://example.com/schemas/external.json",
+  "$id": "https://raw.githubusercontent.com/packetcoders/json-schema-ref/main/example2/external.json",
   "type": "object",
   "properties": {
     "data": { "$ref": "#dataStructure" }
