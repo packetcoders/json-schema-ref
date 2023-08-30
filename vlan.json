@@ -4,7 +4,7 @@
   "type": "object",
   "properties": {
     "vlan_id": { "type": "integer" },
-    "name": { "type": "string" }
+    "name": { "type": "integer" }
   },
   "required": ["vlan_id", "name"]
 }
